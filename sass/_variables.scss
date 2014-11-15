@@ -281,20 +281,20 @@ $btn-success-border:             darken($btn-success-bg, 0%);
 
 // Extra small screen / phone
 // Note: Deprecated $screen-xs and $screen-phone as of v3.0.1
-//$screen-xs:                  480px;
-//$screen-xs-min:              $screen-xs;
+$screen-xs:                  640px;
+$screen-xs-min:              $screen-xs;
 //$screen-phone:               $screen-xs-min;
 
 // Small screen / tablet
 // Note: Deprecated $screen-sm and $screen-tablet as of v3.0.1
-//$screen-sm:                  768px;
-//$screen-sm-min:              $screen-sm;
+$screen-sm:                  768px;
+$screen-sm-min:              $screen-sm;
 //$screen-tablet:              $screen-sm-min;
 
 // Medium screen / desktop
 // Note: Deprecated $screen-md and $screen-desktop as of v3.0.1
-//$screen-md:                  992px;
-//$screen-md-min:              $screen-md;
+$screen-md:                  992px;
+$screen-md-min:              $screen-md;
 //$screen-desktop:             $screen-md-min;
 
 // Large screen / wide desktop
