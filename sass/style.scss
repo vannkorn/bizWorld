@@ -294,6 +294,7 @@ ul.language {
 		li {
 			a {
 				font-size: 14px;
+				color: $colorWhite;
 			}
 		}
 	}
@@ -327,7 +328,7 @@ ul.language {
 		h4 {
 			background-color: $colorDarkOrange;
 			color: $colorWhite;
-			padding: 15px;
+			padding: 10px 15px;
 			margin: 0 0 15px 0;
 		}
 		.related-product {
