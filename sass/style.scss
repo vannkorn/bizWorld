@@ -36,6 +36,9 @@ body {
 			background-color: $colorOrange;
 		}
 	}
+	.row {
+		margin: 0;
+	}
 }
 a {
 	display: block;
@@ -240,6 +243,7 @@ ul.language {
 			border-radius:0px;
 			cursor:pointer;
 			height: 101px;
+			padding: 15px 15px 0 30px;
 			
 			h4 {
 				margin: 0;
@@ -289,6 +293,13 @@ ul.language {
 		text-decoration: underline;
 	}
 }
+span.rating {
+	display: block;
+	width: 94px;
+	height: 15px;
+	background: url(../images/rating.png) no-repeat 0 -153px;
+	padding-bottom: 15px;
+}
 .footer {
 	ul {
 		li {
@@ -300,6 +311,10 @@ ul.language {
 	}
 	.text-center p, .text-center a  {
 		font-size: 16px;
+	}
+	.text-center {
+		border-top: 1px dotted $colorDarkOrange;
+		padding: 36px 0;
 	}
 }
 /**
@@ -314,6 +329,9 @@ ul.language {
 		padding-right: 15px;
 	}
 }
+.search.subpage {
+	margin-bottom: 36px;
+}
 .body {
 	font-size: 14px;
 	
@@ -322,6 +340,28 @@ ul.language {
 	}
 }
 .sidebar {
+	.subscribe {
+		border: 1px solid $colorOrange;
+		padding-bottom: 0 !important;
+		margin-bottom: 20px;
+		
+		h4 {
+			text-transform: uppercase;
+			background-color: $colorOrange !important;
+			text-align: center;
+		}
+		p {
+			padding: 0 15px;
+		}
+		.form-group {
+			margin: 0 0 15px 0;
+			
+			button {
+				font-size: 12px;
+				text-transform: uppercase;
+			}
+		}
+	}
 	.box {
 		padding-bottom: 20px;
 		
@@ -349,6 +389,9 @@ ul.language {
 			}
 		}
 	}
+}
+.pagination li a {
+	color: $colorOrange;
 }
 @media screen and ( max-width: 768px ) {
 	.container {
